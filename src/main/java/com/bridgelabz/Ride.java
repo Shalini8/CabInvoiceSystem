@@ -8,4 +8,8 @@ public class Ride {
         this.distance = distance;
         this.time = time;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> development

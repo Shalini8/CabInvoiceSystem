@@ -16,7 +16,11 @@ public class InvoiceSummary {
         return Double.compare(that.averageFare, averageFare) == 0 && numberOfRides == that.numberOfRides && Double.compare(that.totalFare, totalFare) == 0;
     }
 
+<<<<<<< HEAD
     @Override
+=======
+       @Override
+>>>>>>> development
     public int hashCode() {
         return Objects.hash(averageFare, numberOfRides, totalFare);
     }
@@ -26,4 +30,8 @@ public class InvoiceSummary {
         this.totalFare = totalFare;
         this.averageFare = this.totalFare/this.numberOfRides;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> development
